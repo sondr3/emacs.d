@@ -1,5 +1,8 @@
-/.cask
-/.hive-maint
-/custom.el
-/elpa
-/var
+.cask
+.hive-maint
+custom.el
+elpa/
+var/
+etc/
+cache/
+init.el

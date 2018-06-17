@@ -1,6 +1,12 @@
 [borg]
 	pushDefault = locutus
 	collective = emacsg
+[submodule "aggressive-indent"]
+	path = lib/aggressive-indent
+	url = git@github.com:Malabarba/aggressive-indent-mode.git
+[submodule "async"]
+	path = lib/async
+	url = git@github.com:jwiegley/emacs-async.git
 [submodule "auto-compile"]
 	path = lib/auto-compile
 	url = git@github.com:emacscollective/auto-compile.git
@@ -10,10 +16,19 @@
 [submodule "closql"]
 	path = lib/closql
 	url = git@github.com:emacscollective/closql.git
+[submodule "company"]
+	path = lib/company
+	url = git@github.com:company-mode/company-mode.git
+[submodule "company-childframe"]
+	path = lib/company-childframe
+	url = git@github.com:tumashu/company-childframe.git
 [submodule "dash"]
 	path = lib/dash
 	url = git@github.com:magnars/dash.el.git
 	no-makeinfo = dash-template.texi
+[submodule "delight"]
+	path = lib/delight
+	url = https://git.savannah.nongnu.org/git/delight.git
 [submodule "diff-hl"]
 	path = lib/diff-hl
 	url = git@github.com:dgutov/diff-hl.git
@@ -24,12 +39,43 @@
 [submodule "epkg"]
 	path = lib/epkg
 	url = git@github.com:emacscollective/epkg.git
+[submodule "evil"]
+	path = lib/evil
+	url = git@github.com:emacs-evil/evil.git
+[submodule "evil-magit"]
+	path = lib/evil-magit
+	url = git@github.com:emacs-evil/evil-magit.git
+[submodule "flycheck"]
+	path = lib/flycheck
+	url = git@github.com:flycheck/flycheck.git
+[submodule "flycheck-inline"]
+	path = lib/flycheck-inline
+	url = git@github.com:flycheck/flycheck-inline.git
+[submodule "general"]
+	path = lib/general
+	url = git@github.com:noctuid/general.el.git
 [submodule "ghub"]
 	path = lib/ghub
 	url = git@github.com:magit/ghub.git
 [submodule "git-modes"]
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
+[submodule "hydra"]
+	path = lib/hydra
+	url = git@github.com:abo-abo/hydra.git
+[submodule "ivy"]
+	path = lib/ivy
+	url = git@github.com:abo-abo/swiper.git
+[submodule "lib/org"]
+	path = lib/org
+  url = https://code.orgmode.org/bzg/org-mode.git
+	build-step = make
+	load-path = lisp
+	load-path = contrib/lisp
+  info-path = doc
+[submodule "macrostep"]
+	path = lib/macrostep
+	url = git@github.com:joddie/macrostep.git
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:magit/magit.git
@@ -40,9 +86,24 @@
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
+[submodule "posframe"]
+	path = lib/posframe
+	url = git@github.com:tumashu/posframe.git
+[submodule "rainbow-delimiters"]
+	path = lib/rainbow-delimiters
+	url = git@github.com:Fanael/rainbow-delimiters.git
+[submodule "tao-theme"]
+	path = lib/tao-theme
+	url = git@github.com:11111000000/tao-theme-emacs.git
 [submodule "use-package"]
 	path = lib/use-package
 	url = git@github.com:jwiegley/use-package.git
+[submodule "which-key"]
+	path = lib/which-key
+	url = git@github.com:justbur/emacs-which-key.git
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:magit/with-editor.git
+[submodule "ws-butler"]
+	path = lib/ws-butler
+	url = git@github.com:lewang/ws-butler.git

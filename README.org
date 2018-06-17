@@ -1,0 +1,5 @@
+# Emacs
+
+This repository only contains the submodules that I use for Emacs, if you
+actually want to take a look at how my configuration looks, you can view it
+[[https://github.com/sondr3/dotfiles/blob/master/emacs.org][here]].
